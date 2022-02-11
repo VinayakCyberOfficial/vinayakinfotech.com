@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient( white, seashell, lightcyan);
+    color: currentColor;
+    background-size: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+.war {
+    position: center;
+    width: 860px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 50px;
+    bottom: 80px;
+}
+
+.war ul {
+    list-style: none;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.war ul li {
+    background: lightskyblue;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: red;
+    font-size: 14px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.war ul li:hover {
+    text-decoration: none;
+    visibility: visible;
+    z-index: 100;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    color: blueviolet;
+    background-image: linear-gradient(to right, aqua, aquamarine);
+    transition: 0.5s;
+    cursor: pointer;
+    animation: slidebg 5s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 100vw;
+    }
+}
+
+li {
+    color: lightseagreen;
+}
+
+.war ul ul {
+    display: none;
+}
+
+.war ul li:hover>ul {
+    display: block;
+    visibility: visible;
+    z-index: 100;
+    background: aqua;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.war ul ul ul {
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+
+.war ul ul ul ul {
+    margin-left: 180px;
+    top: 0;
+    position: absolute;
+}
+
+.slider {
+    overflow: hidden;
+    min-width: 1100px;
+    max-width: 5000px;
+    width: 500px;
+    min-height: 700px;
+    position: relative;
+    right: 20px;
+    bottom: 75px;
+}
+
+.slider figure div {
+    float: left;
+    width: 20%;
+}
+
+.slider figure img {
+    width: 100000px;
+    float: left;
+}
+
+.slider figure {
+    position: absolute;
+    width: 5000px;
+    margin: 0px;
+    right: 100;
+    animation: 40s raja infinite;
+}
+
+@keyframes raja {
+    0% {
+        size: 100%;
+        left: 0%;
+    }
+    10% {
+        size: 100%;
+        left: -100%;
+    }
+    12% {
+        size: 100%;
+        left: -100%;
+    }
+    22% {
+        size: 100%;
+        left: -200%;
+    }
+    24% {
+        size: 100%;
+        left: -200%;
+    }
+    34% {
+        size: 100%;
+        left: -200%;
+    }
+    40% {
+        size: 100%;
+        left: -300%;
+    }
+    46% {
+        size: 100%;
+        left: -300%;
+    }
+    48% {
+        size: 100%;
+        left: -400%;
+    }
+    58% {
+        size: 100%;
+        left: -400%;
+    }
+    60% {
+        size: 100%;
+        left: -300%;
+    }
+    70% {
+        size: 100%;
+        left: -300%;
+    }
+    72% {
+        size: 100%;
+        left: -200%;
+    }
+    82% {
+        size: 100%;
+        left: -200%;
+    }
+    84% {
+        size: 100%;
+        left: -100%;
+    }
+    94% {
+        size: 100%;
+        left: -100%;
+    }
+    96% {
+        size: 100%;
+        left: -100%;
+    }
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+audio {
+    transition: all 0.5 linear;
+    box-shadow: 2px 2px 4px 0px #006773;
+    border-radius: 7px;
+    position: relative;
+    right: 150px;
+}
+
+.ansu {
+    position: relative;
+    right: 160px;
+}
+
+.god {
+    position: relative;
+    right: 160px;
+}
+
+video {
+    position: relative;
+    right: 160px;
+}
+
+video:hover,
+video:focus,
+video:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.ansu:hover,
+.ansu:focus,
+.ansu:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.god:hover,
+.god:focus,
+.god:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    align-self: stretch;
+}
+
+.blink {
+    position: absolute;
+    text-transform: translate(-50%, -50%);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1:hover {
+    text-shadow: aqua;
+}
+
+.carousel-cell {
+    padding: 2px;
+}
+
+.main-carousel {
+    padding: 50px 0;
+    width: 110%;
+}
+
+.op {
+    position: relative;
+    top: 30px;
+    background-size: 100% 100%;
+    opacity: 100%;
+    font: 1em sans-serif;
+    display: inline-block;
+    color: black;
+    transform-origin: center;
+    font-weight: 700;
+}
+
+.tab {
+    position: relative;
+    right: 80px;
+}
+
+.op:hover {
+    text-shadow: #F2EA02;
+    opacity: 5000%;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, cyan, lightgreen);
+    color: lightgreen;
+    border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+Start your PC in safe mode, then right-click the Start 
+Windows logo Start button
+ button and select Device Manager.
+2
+Expand the Display adapters section, right-click the listed adapter, then select Uninstall device. Select the Delete the driver software for this device check box, then select Uninstall and restart your PC.
+3
+After your PC restarts, press the Windows logo key 
+Windows logo Start button
+ + I on your keyboard to open Settings. If that doesn't work, select the Start 
+Windows logo Start button
+ button and then select Settings 
+Gear-shaped Settings icon
+.
+4
+From Settings, select Update & security 
+Circular arrows Sync icon
+ > Windows Update 
+Circular arrows Sync icon
+ > Check for updates.

@@ -70,3 +70,6 @@ function k() {
 function l() {
     window.open("https://wetransfer.com/");
 }
+function z1() {
+    window.open("https://web.whatsapp.com/");
+}
